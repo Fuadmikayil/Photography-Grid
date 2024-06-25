@@ -1,11 +1,12 @@
-h1{
+h1 {
     font-size: 60px;
-    padding: 100px  0;
+    padding: 100px 0;
     font-weight: 300;
     text-align: center;
     letter-spacing: 4px;
 }
-.hiro{
+
+.hiro {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
@@ -13,20 +14,28 @@ h1{
     margin: 0 auto;
     padding-bottom: 50px;
 }
-.hiro>.img_wrapper{
+
+.hiro > .img_wrapper {
     overflow: hidden;
 }
-.hiro>.tall{
+
+.hiro > .tall {
+    margin-top: 20%;
 }
-.hiro>.img_wrapper>img{
+.hiro > .tall2 {
+    margin-top: 14%;
+}
+
+.hiro > .img_wrapper > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: .6s;
-    cursor:pointer;
+    cursor: pointer;
     filter: blur(2px);
 }
-.hiro>.img_wrapper>img:hover{
+
+.hiro > .img_wrapper > img:hover {
     transform: scale(1.05);
     filter: blur(0px);
 }
