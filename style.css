@@ -12,9 +12,13 @@ h1{
     width: 75%;
     margin: 0 auto;
     padding-bottom: 50px;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-auto-rows: 200px;
 }
 .hiro>.img_wrapper{
     overflow: hidden;
+}
+.hiro>.tall{
 }
 .hiro>.img_wrapper>img{
     width: 100%;
