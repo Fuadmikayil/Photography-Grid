@@ -5,3 +5,8 @@ h1{
     text-align: center;
     letter-spacing: 4px;
 }
+.hiro{
+    display: grid;
+    padding: 40px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
